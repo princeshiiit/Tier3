@@ -10,7 +10,7 @@ async function main() {
     }
 
     // Attach to the deployed contract
-    const MyToken = await ethers.getContractFactory("MyToken");
+    const MyToken = await ethers.getContractFactory("MaddyToken");
     const token = MyToken.attach(contractAddress);
 
     const [owner] = await ethers.getSigners();
