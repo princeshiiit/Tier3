@@ -6,7 +6,7 @@ dotenv.config();
 
 const config: HardhatUserConfig = {
   solidity: {
-    version: "0.8.27",  // Ensure this matches your contracts' pragma statements
+    version: "0.8.26",  // Ensure this matches your contracts' pragma statements
     settings: {
       optimizer: {
         enabled: true,
